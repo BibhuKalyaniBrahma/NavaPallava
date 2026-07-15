@@ -18,14 +18,17 @@ header{position:fixed;top:0;width:100%;display:flex;justify-content:space-betwee
 }
 /* First Image */
 .logo{
-    width:90px;
-    height:auto;
+    width:120px;
+    height:100px;
+    object-fit:cover;
+    border-radius:12px;
+    border:2px solid #1E6B33;
 }
 
 /* Second Image */
 .header-image{
-    width:90px;
-    height:90px;
+    width:120px;
+    height:100px;
     object-fit:cover;
     border-radius:12px;
     border:2px solid #1E6B33;
