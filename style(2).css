@@ -5,7 +5,7 @@
 html{scroll-behavior:smooth}
 body{font-family:Poppins,sans-serif;background:var(--light);color:var(--text);overflow-x:hidden}
 img{max-width:100%;display:block}
-/*header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 7%;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);box-shadow:0 5px 20px rgba(0,0,0,.08);z-index:999}*/
+header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 7%;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);box-shadow:0 5px 20px rgba(0,0,0,.08);z-index:999}
 .site-header{
     display:flex;
     justify-content:space-between;
