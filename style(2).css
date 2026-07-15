@@ -8,8 +8,28 @@ img{max-width:100%;display:block}
 header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 7%;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);box-shadow:0 5px 20px rgba(0,0,0,.08);z-index:999}
 .brand{display:flex;align-items:center;gap:18px}
 .brand img{height:90px}
-.brand-text h1{font-family:'Playfair Display',serif;font-size:2rem;color:var(--primary)}
-.brand-text span{color:var(--secondary);letter-spacing:3px;text-transform:uppercase;font-size:.85rem;font-weight:600}
+.site-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 6%;
+    background:#fff;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+/* First Image */
+.logo{
+    width:90px;
+    height:auto;
+}
+
+/* Second Image */
+.header-image{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:12px;
+    border:2px solid #1E6B33;
+}
 nav{display:flex;gap:30px}
 nav a{text-decoration:none;color:var(--primary);font-weight:600}
 nav a:hover{color:var(--secondary)}
